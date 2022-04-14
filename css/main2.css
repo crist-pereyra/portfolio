@@ -227,6 +227,11 @@
   .main-header .menu-icon {
     display: block;
   }
+  .principal-button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
   .main-header .menu-icon__line {
     -webkit-animation: closedMid 0.8s backwards;
             animation: closedMid 0.8s backwards;
