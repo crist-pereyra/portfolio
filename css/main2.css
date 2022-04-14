@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
 .hero {
   height: 100vh;
-  background: url("./dist/img/hero.jpg") no-repeat bottom center;
+  background: url("../img/hero.jpg") no-repeat bottom center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
