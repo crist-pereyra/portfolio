@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
 .hero {
   height: 100vh;
-  background: url("../img/hero.jpg") no-repeat bottom center;
+  background: url("../dist/img/hero.jpg") no-repeat bottom center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,11 +227,6 @@
   .main-header .menu-icon {
     display: block;
   }
-  .principal-button{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-  }
   .main-header .menu-icon__line {
     -webkit-animation: closedMid 0.8s backwards;
             animation: closedMid 0.8s backwards;
@@ -363,6 +358,24 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 1rem;
+  }
+  .principal-button {
+    top: 60%;
+  }
+  .container-cv {
+    margin: 10px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .about .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .box .year-company {
+    min-width: 150px;
+    margin-bottom: 5px;
   }
 }
 
@@ -568,8 +581,7 @@
 
 .presentation-card {
   width: 90%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#1B1F30), color-stop(#1B1F30), to(#1F2336));
-  background: linear-gradient(0deg, #1B1F30, #1B1F30, #1F2336);
+  background: linear-gradient(45deg, #1B1F30, #1B1F30, #1F2336);
   margin: 1rem 2rem;
   border-radius: 10px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
