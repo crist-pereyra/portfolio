@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main2.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../scss/main.css">
     <link rel="icon" href="../img/logo.png">
     <title>My skills</title>
+    <script src="https://kit.fontawesome.com/4a9d093137.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="main-header header-static">
@@ -23,7 +24,156 @@
             <li class="nav-link"><a href="#">Contact me</a></li>
         </ul>
     </header>
-    
+    <article class="cv">
+        <section class="container-cv">
+            <div class="left-side">
+                <div class="profile-text">
+                    <figure class="img-box">
+                        <img src="../img/profile.jpg" alt="Cristian Pereyra profile">
+                    </figure>
+                    <h2>Cristian Rub&#233;n Pereyra<br><span>Software Developer</span></h2>
+                </div>
+                <div class="contact-info">
+                    <h3 class="title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-envelope-open-text"></i></span>
+                            <span class="text">cp.crist.pereyra@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-globe"></i></span>
+                            <span class="text">www.crist-pereyra.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                            <span class="text">www.linkedin.com/in/crist-pereyra/</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <span class="text">Cochabamba, Bolivia</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-info education">
+                    <h3 class="title">Education</h3>
+                    <ul>
+                        <li>
+                            <h5>2016 - 2021</h5>
+                            <h4>Bachelor's Degree in Network & Telecommunication Engineer </h4>
+                            <h4>Universidad Privada Domingo Savio</h4>
+                        </li>
+                        <li>
+                            <h5>2019 - 2020</h5>
+                            <h4>FrontEnd with React.js Program</h4>
+                            <h4>Facebook Developer Circle</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-info language">
+                    <h3 class="title">Languages</h3>
+                    <ul>
+                        <li>
+                            <span class="text">English</span>
+                            <span class="percent">
+                                <div style="width: 80%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Spanish</span>
+                            <span class="percent">
+                                <div style="width: 100%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="about">
+                    <h2 class="title-right">Profile</h2>
+                    <p>I am a JS developer. <br><br>
+                        I have React, Node.js skills acquired within the Facebook Developer Circle</p>
+                </div>
+                <div class="about">
+                    <h2 class="title-right">WORK BACKGROUND</h2>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>June 2021 - July 2021</h5>
+                            <h5>Ecoblu</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Backend Developer</h4>
+                            <p>Shift Control System. Using architecture in React on Frontend and MongoDB on Backend.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>September 2019 - March 2021</h5>
+                            <h5>Nacional Adita Lending Agency</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Fullstack Developer</h4>
+                            <p>Implementation of Financial Platform. Full-Stack development based on React and MySQL
+                            Based on financial processes, account opening, review of expired periods and articles with QR coding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about skills">
+                    <h2 class="title-right">Technical skills</h2>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>Programming languages</h5>
+                        </div>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>Frontend</h5>
+                        </div>
+                        <ul>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>Backend</h5>
+                        </div>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="year-company">
+                            <h5>Machine learning</h5>
+                        </div>
+                        <ul>
+                            <li>scikit-learn (Basic)</li>
+                            <li>TensorFlow (Basic)</li>
+                            <li>NumPy (Basic)</li>
+                            <li>Pandas (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about skills">
+                    <h2 class="title-right">Soft skills</h2>
+                    <ul>
+                        <li>Collaboration and time management</li>
+                        <li>SCRUM iterative framework</li>
+                        <li>Development and writing in analytical research</li>
+                        <li>Digital organization</li>
+                        <li>Creative flexibility</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </article>
     <div class="social-networks">
         <div class="control-social-network facebook">
             <a href="https://www.facebook.com/crist.pereyra.g" target="_blank"><img src="../icons/facebook-f.svg" alt="facebook"></a>

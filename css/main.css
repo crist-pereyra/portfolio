@@ -174,3 +174,158 @@ body{
   color: var(--fuchsia);
   font-size: 1.3rem;
 }
+
+/* Cv */
+.cv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container-cv{
+  position: relative;
+  margin: 50px;
+  margin-top: 120px;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: var(--white);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: var(--box-shadow-card);
+}
+.container-cv .left-side{
+  position: relative;
+  background: var(--secondary-gray);
+  /* background: linear-gradient(45deg, var(--fuchsia), var(--secondary-salmon)); */
+  padding: 40px;
+}
+.profile-text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile-text .img-box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile-text .img-box img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-text h2{
+  color: var(--white);
+  font-size: 1.3rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.profile-text h2 span{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.contact-info{
+  padding-top: 40px;
+}
+.title{
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contact-info ul{
+  position: relative;
+  padding: 0;
+}
+.contact-info ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contact-info ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: var(--fuchsia);
+}
+.contact-info ul li span{
+  font-weight: 300;
+}
+.contact-info.education li{
+  margin-bottom: 15px;
+}
+.contact-info.education h5{
+  color: var(--fuchsia);
+  font-weight: 500;
+}
+.contact-info.education h4:nth-child(2){
+  font-weight: 500;
+}
+.contact-info.education h4{
+  font-weight: 300;
+}
+.contact-info.language .percent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: var(--light-gray);
+  display: block;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.contact-info.language .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(45deg, var(--fuchsia), var(--secondary-salmon));
+}
+.container-cv .right-side{
+  position: relative;
+  background: linear-gradient(45deg, var(--gray), var(--gradient-gray2), var(--medium-gray));
+  padding: 40px;
+}
+.about{
+  margin-bottom: 50px;
+}
+.about:last-child{
+  margin-bottom: 0;
+}
+.title-right{
+  color: var(--fuchsia);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .year-company{
+  min-width: 250px;
+}
+.about .box .year-company h5{
+  text-transform: uppercase;
+  color: var(--light-gray);
+  font-weight: 600;
+}
+.about .box .text h4{
+  text-transform: uppercase;
+  color: var(--salmon);
+  font-size: 1rem;
+}
